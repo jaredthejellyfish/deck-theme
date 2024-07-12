@@ -1,0 +1,9 @@
+.BasicFooter {
+    display: none;
+    height: 0px;
+    min-height: 0px;
+}
+
+#QuickAccess-NA {
+    border-radius: 0 0 0 20px;
+}

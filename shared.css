@@ -1,0 +1,11 @@
+:root {
+    --round-radius-size: 10px;
+}
+
+._2JtC3JSLKaOtdpAVEACsG1::before {
+    background-color: #e02c6d !important;
+}
+
+.SliderTrack::before {
+    background-color: #e02c6d !important;
+}

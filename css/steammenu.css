@@ -1,0 +1,24 @@
+._3vzvOyI0h9mIihOEtO6wZ2._3apLK4XGwOjawDa-8X1CUa {
+    background: var(--tab-background) !important;
+    backdrop-filter: var(--backdrop-filter);
+}
+
+._23IDiI-F_FxXotrgpY71r8._3apLK4XGwOjawDa-8X1CUa {
+    background: transparent !important;
+}
+
+._1uLVHdiiCg78BRnhqLxUID {
+    background: rgb(190, 190, 190) !important;
+}
+
+.ItemLabel,
+.ItemIcon {
+    color: rgb(100, 100, 100);
+}
+
+.gpfocus.gpfocuswithin {
+    background-color: rgba(90, 90, 90, 0.3) !important;
+    color: rgba(200, 200, 200, 0.9) !important;
+    backdrop-filter: none !important;
+}
+

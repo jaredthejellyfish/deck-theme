@@ -1,0 +1,108 @@
+{
+    "name": "Test Theme",
+    "author": "jaredthejellyfish",
+    "target": "Library",
+    "manifest_version": 8,
+    "description": "This is an example description.",
+    "version": "4",
+    "inject": {
+        "shared.css": [
+            "QuickAccess",
+            "SP",
+            "MainMenu"
+        ]
+    },
+    "flags": [
+        "REQUIRE_NAV_PATCH"
+    ],
+    "patches": {
+        "Theme Color": {
+            "default": "Transparent",
+            "type": "dropdown",
+            "values": {
+                "Transparent": {
+                    "css/colors/transparent.css": [
+                        "Steam Big Picture Mode",
+                        "SP",
+                        "MainMenu",
+                        "QuickAccess"
+                    ]
+                },
+                "Solid": {
+                    "css/colors/solid.css": [
+                        "Steam Big Picture Mode",
+                        "SP",
+                        "MainMenu",
+                        "QuickAccess"
+                    ]
+                }
+            }
+        },
+        "Quick Access": {
+            "default": "No",
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "css/quickaccess.css": [
+                        "QuickAccess"
+                    ]
+                },
+                "No": {}
+            }
+        },
+        "Steam Menu": {
+            "default": "No",
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "css/steammenu.css": [
+                        "MainMenu"
+                    ]
+                },
+                "No": {}
+            }
+        },
+        "Home": {
+            "default": "No",
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "css/home.css": [
+                        "Steam Big Picture Mode"
+                    ]
+                },
+                "No": {}
+            }
+        },
+        "Round Icons": {
+            "default": "No",
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "css/round-icons.css": [
+                        "Steam Big Picture Mode",
+                        "SP",
+                        "MainMenu",
+                        "QuickAccess"
+                    ]
+                },
+                "No": {}
+            }
+        }
+        ,"No Footer": {
+            "default": "Yes",
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "css/no-footer.css": [
+                        "Steam Big Picture Mode",
+                        "SP",
+                        "MainMenu",
+                        "QuickAccess"
+                    ]
+                },
+                "No": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+._3Ag1wVkrYOaZyOUNWGLf3Y {
+    background: transparent !important;
+
+}
+
+._2z5NLWXYyRbqbrFDD718Y_.Panel.Focusable {
+    margin-bottom: 65px;
+    ;
+}
+
+.QuickAccessMenu.Panel.Focusable.gpfocuswithin {
+    background: var(--tab-background) !important;
+    backdrop-filter: var(--backdrop-filter);
+}
+
+._34nl5vUoFCDYYnmHNL7axB.Panel.Focusable {
+    background: var(--tab-background) !important;
+    backdrop-filter: var(--backdrop-filter);
+    box-shadow: none;
+}
+
+._34nl5vUoFCDYYnmHNL7axB {
+    background: var(--tab-background) !important;
+    backdrop-filter: var(--backdrop-filter);
+    box-shadow: none;
+}
+
+.friendslist {
+    background: transparent !important;
+}
+
+._1S76C3gQf4oOTbLdTMVH0m.Panel.Focusable {
+    color: rgb(100, 100, 100);
+}
+
+._1S76C3gQf4oOTbLdTMVH0m._2QHMua1-KysYKpszTPAW_O.Panel.Focusable {
+    background-color: rgba(90, 90, 90, 0.3) !important;
+    color: rgba(200, 200, 200, 0.9) !important;
+    backdrop-filter: none !important;
+
+}
+
+._1S76C3gQf4oOTbLdTMVH0m._2QHMua1-KysYKpszTPAW_O.Panel.Focusable>svg {
+    scale: 80%;
+}
+
+._34nl5vUoFCDYYnmHNL7axB.Panel.Focusable {
+    padding-bottom: 5px;
+    background: transparent !important
+
+}
+
+/* div:has(._34nl5vUoFCDYYnmHNL7axB.Panel.Focusable) {
+    border: red 1px solid;
+} */
+
+
