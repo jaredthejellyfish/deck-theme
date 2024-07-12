@@ -1,9 +1,9 @@
 {
-    "name": "Test Theme",
+    "name": "Jared's Theme",
     "author": "jaredthejellyfish",
     "target": "Library",
     "manifest_version": 8,
-    "description": "This is an example description.",
+    "description": "This is a theme for the steamdeck",
     "version": "4",
     "inject": {
         "shared.css": [
